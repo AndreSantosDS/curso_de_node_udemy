@@ -1,0 +1,1 @@
+parseFloat(respostas.pergunta2))
