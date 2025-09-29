@@ -1,0 +1,9 @@
+
+{{#each produtos}}
+    <article>
+        <h2>{{this.id}} - {{this.nome}}</h2>
+        <p><strong>Categoria: </strong>{{this.categoria}}</p>
+        <p><strong>Estoque:</strong> {{this.estoque}} unidades</p>
+        <a href="/produto/{{this.id}}">Comprar</a>
+    </article>
+{{/each}}
